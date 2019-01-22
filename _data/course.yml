@@ -1,6 +1,6 @@
-title: Introduction to Computer Science | 2018
-description: Introduction to Computer Science -- FCS Fall 2018
-modules: [00-welcome, 01-introduction, 02-variables, 03-logic, '04-loops and transfromations','05-functions','06-the internet']
+title: 'CS2: Simulating the Natural World - FCS Spring 2019'
+description: 'CS2: Simulating the Natural World - FCS Spring 2019'
+modules: [00-welcome]
 signups:
 iframe_width: "600"
 p5_data_width: "350"
