@@ -1,5 +1,6 @@
 ---
 title: "A bit about Git"
+published: false
 ---
 #{{page.title}}
 
