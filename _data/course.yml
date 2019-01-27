@@ -1,6 +1,6 @@
 title: 'CS2: Simulating the Natural World - FCS Spring 2019'
 description: 'CS2: Simulating the Natural World - FCS Spring 2019'
-modules: [00-welcome]
+modules: [00-welcome,01-objects-and-classes]
 signups:
 iframe_width: "600"
 p5_data_width: "350"

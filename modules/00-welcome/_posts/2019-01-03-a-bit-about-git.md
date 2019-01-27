@@ -1,4 +1,7 @@
-# Welcome to p5.js
+---
+title: "A bit about Git"
+---
+#{{page.title}}
 
 Now the moment of truth. Let's learn a little bit more about what p5.js is and what it can do. This video will give you a brief introduction to p5.js and provide a bunch of examples
 
