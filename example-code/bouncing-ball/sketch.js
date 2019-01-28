@@ -8,7 +8,7 @@ function setup() {
 		d: 20,
 		xVel: 6,
 		yVel: 4,
-    c:[255,0,0]
+		c: [255, 0, 0]
 
 	}
 }
@@ -27,7 +27,7 @@ function draw() {
 	if (circle.y >= height) {
 		circle.yVel = circle.yVel * -1;
 	}
-  if (circle.x < 0) {
+	if (circle.x < 0) {
 		circle.xVel = circle.xVel * -1;
 	}
 
