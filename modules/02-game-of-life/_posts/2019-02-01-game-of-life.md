@@ -13,4 +13,4 @@ Cellular Automata (CA) is a type of **bottom up** simultion that has its roots i
 ## Simple example
 
 Let's say that we start with a grid that is 3 x 3 with all cells being 0 except for the center cell.
-![]({{site.baseurl}}/img/gol1.png)
+<img src="({{site.baseurl}}/img/gol1.png)" width="400">
