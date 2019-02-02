@@ -1,5 +1,6 @@
 ---
 title: 'Branch, Commit, and Pull'
+published: true
 ---
 
 # {{page.title}}
