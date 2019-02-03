@@ -1,6 +1,6 @@
 ---
 title: 'Branch, Commit, and Pull'
-published: false
+published: true
 
 ---
 

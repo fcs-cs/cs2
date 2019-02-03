@@ -1,6 +1,6 @@
 ---
 title: 'Github Flow'
-published: false
+published: true
 ---
 
 #{{page.title}}
