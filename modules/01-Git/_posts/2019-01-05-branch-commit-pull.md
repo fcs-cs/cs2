@@ -19,3 +19,7 @@ This video will show you the process of branching, making changes and commiting,
 ## CC - Branch, Commit, and Pull
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeuzqlWvq3YOPAgzSueYyJqLKPPdgrVvE7Th09o1Q92VYBKig/viewform?embedded=true" width="640" height="1426" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+
+## In Class
+
+In class we'll start the process of working the github flow
