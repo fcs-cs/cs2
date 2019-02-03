@@ -1,6 +1,6 @@
 ---
 title: 'Discussion and Merging'
-published: true
+published: false
 ---
 
 # {{page.title}}

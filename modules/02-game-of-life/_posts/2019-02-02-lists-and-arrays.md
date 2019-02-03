@@ -1,5 +1,6 @@
 ---
 title: Arrays
+published: false
 ---
 
 #{{page.title}}
