@@ -53,6 +53,3 @@ Cloning a repo is the process by which you download a repository to your compute
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9eZYcPL7tUk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Simple, eh?
-
-
-
