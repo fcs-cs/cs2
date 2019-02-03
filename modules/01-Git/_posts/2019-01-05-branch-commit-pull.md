@@ -15,3 +15,7 @@ Now that we have a copy of our code on our computer and we have access to github
 This video will show you the process of branching, making changes and commiting, and creating a pull request all inside of VS Code.
 
 <iframe width="600" height="340" src="https://www.youtube.com/embed/l1CmUOA9Dpg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## CC - Branch, Commit, and Pull
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeuzqlWvq3YOPAgzSueYyJqLKPPdgrVvE7Th09o1Q92VYBKig/viewform?embedded=true" width="640" height="1426" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
