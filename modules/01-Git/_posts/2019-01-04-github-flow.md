@@ -17,6 +17,8 @@ The GitHub workflow has 5 steps
 4. Discussion
 5. Merge
 
+There is a great explaination on [GitHub's website](https://guides.github.com/introduction/flow/)
+
 However, Before we get started there are a couple of important things that we have to do first.
 
 ### [VSCode GitHub Pull Request Extension](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
