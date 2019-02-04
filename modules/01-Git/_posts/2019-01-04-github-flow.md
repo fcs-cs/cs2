@@ -3,7 +3,7 @@ title: 'Github Flow'
 published: true
 ---
 
-#{{page.title}}
+# {{page.title}}
 
 Git and Github are design to be flexible and suit the needs of individual coders and enterprise coders a like, which means that it can do **A LOT !** What that means is that its easy to get your self in to the weeds without making a lot of progress. Luckily, you're not the first person to use github, and there are some well established workflows that will help us all collaborate effectively with code. While there are many different workflows, in the class we will look at the basic "GitHub Flow"
 
