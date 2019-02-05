@@ -1,6 +1,6 @@
 ---
 title: "John Conway's Game of Life"
-published: true
+published: false
 ---
 # {{page.title}}
 
