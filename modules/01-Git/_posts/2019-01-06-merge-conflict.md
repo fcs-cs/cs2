@@ -1,5 +1,6 @@
 ---
 title: 'Merge Conflict Resolution'
+published: false
 ---
 
 #{{page.title}}
