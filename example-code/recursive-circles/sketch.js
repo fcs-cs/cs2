@@ -24,7 +24,7 @@ function drawCircle(x, y, d) {
   ellipse(x, y, d);
   if (d > 2) {
 		stroke(255);
-		fill(255,100);
+		fill(255,0,0,100);
     drawCircle(x + d * random(rmin, rmax), y, d * random(rmin, rmax));
     drawCircle(x - d * random(rmin, rmax), y, d * random(rmin, rmax));
     drawCircle(x, y - d * random(rmin, rmax), d * random(rmin, rmax));

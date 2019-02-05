@@ -1,6 +1,6 @@
 ---
 title: Arrays
-published: true
+published: false
 ---
 
 #{{page.title}}

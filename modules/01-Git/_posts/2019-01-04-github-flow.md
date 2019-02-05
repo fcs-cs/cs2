@@ -21,6 +21,30 @@ There is a great explaination on [GitHub's website](https://guides.github.com/in
 
 However, Before we get started there are a couple of important things that we have to do first.
 
+### Install Git on your local computer
+
+#### Installing on Linux
+If you want to install the basic Git tools on Linux via a binary installer, you can generally do so through the package management tool that comes with your distribution. If you’re on Fedora (or any closely-related RPM-based distribution, such as RHEL or CentOS), you can use dnf:
+
+`$ sudo dnf install git-all`
+If you’re on a Debian-based distribution, such as Ubuntu, try apt:
+
+`$ sudo apt install git-all`
+For more options, there are instructions for installing on several different Unix distributions on the Git website, at http://git-scm.com/download/linux.
+
+#### Installing on macOS
+There are several ways to install Git on a Mac. The easiest is probably to install the Xcode Command Line Tools. On Mavericks (10.9) or above you can do this simply by trying to run git from the Terminal the very first time.
+
+`$ git --version`
+If you don’t have it installed already, it will prompt you to install it.
+
+If you want a more up to date version, you can also install it via a binary installer. A macOS Git installer is maintained and available for download at the Git website, at http://git-scm.com/download/mac.
+
+#### Installing on Windows
+There are also a few ways to install Git on Windows. The most official build is available for download on the Git website. Just go to http://git-scm.com/download/win and the download will start automatically. Note that this is a project called Git for Windows, which is separate from Git itself; for more information on it, go to https://git-for-windows.github.io/.
+
+To get an automated installation you can use the Git Chocolatey package. Note that the Chocolatey package is community maintained.
+
 ### [VSCode GitHub Pull Request Extension](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
 
 > Review and manage your GitHub pull requests directly in VS Code
@@ -46,12 +70,3 @@ It's easy to get started with GitHub Pull Requests for Visual Studio Code. Simpl
 
 ## CC - GitHub Flow Overview
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeYIqHMNMJpHCqY5Vek1Nxz-ut1Kf17oAL07Sfg5XYuMtjzVw/viewform?embedded=true" width="640" height="1861" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-
-
-## In Class - Cloning a Repo
-
-Cloning a repo is the process by which you download a repository to your computer so that you can work on them locally. This is a pretty simple process which the video below will explain
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9eZYcPL7tUk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-Simple, eh?
