@@ -1,6 +1,5 @@
 ---
 title: 'Branch and Commit'
-published: false
 ---
 
 #{{page.title}}
