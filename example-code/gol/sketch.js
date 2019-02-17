@@ -90,7 +90,7 @@ function generate() {
 
 }
 
-function mousePressed() {
+function mouseDragged() {
     if (mouseX >= 0 && mouseX <= width && mouseY >= 0 && mouseY <= height) {
         let xLoc = floor(mouseX / cellsize)
         let yLoc = floor(mouseY / cellsize)
