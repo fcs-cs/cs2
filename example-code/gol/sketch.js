@@ -15,7 +15,10 @@ function setup() {
     frameRate(10)
 
     startstop = createButton('start/stop')
-    startstop.mousePressed(startStop)
+    startstop.mousePressed(() => running = (running + 1) % 2)
+
+    clear = createButton('clear');
+    clear.mousePressed(reset)
 
     for (row = 0; row < rows; row++) {
         let temp = []
@@ -94,11 +97,15 @@ function mouseDragged() {
     if (mouseX >= 0 && mouseX <= width && mouseY >= 0 && mouseY <= height) {
         let xLoc = floor(mouseX / cellsize)
         let yLoc = floor(mouseY / cellsize)
-        current[yLoc][xLoc] = (current[yLoc][xLoc]+1) % 2
+        current[yLoc][xLoc] = (current[yLoc][xLoc] + 1) % 2
     }
-    
+
 }
 
 function startStop() {
     running = (running + 1) % 2
+}
+
+function reset(){
+    current = Array(rows).fill(Array(columns).fill(0))
 }
