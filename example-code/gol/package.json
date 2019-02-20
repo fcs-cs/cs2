@@ -1,0 +1,7 @@
+{
+    "name": "Game of Life",
+    "version": "1.0.0",
+    "description": "This is a Game of Life Simulation",
+    "main": "sketch.js",
+    "keywords": []
+  }  

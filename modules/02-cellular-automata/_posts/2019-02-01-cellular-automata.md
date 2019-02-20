@@ -53,3 +53,4 @@ Another way to represent this visually, not numerically would be like this:
 1. Convert your binary rulset into a decimal representation
 2. Try to describe what you made to someone who can't see your creation
 3. Do you think that there is an underlying logic to what you've created?
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSegadmNaAFoA4B1BUeilzv2kW_iZQgQWZgwcN1PsD5WPckWHQ/viewform?embedded=true" width="100%" height="1987" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
