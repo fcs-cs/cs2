@@ -8,9 +8,9 @@ In order to start building our CA we'll need to set up, you guessed it, an array
 
 To begin we'll need to make an array of length 100. In the last lesson we saw how to initiallize a list with some values. Now as tempting as it is to type let `gen1 = [0,0,0,0,0,0,0,0,...,1,0,0,0,0,0,0,0,...]` There's got to be a better way, and there is.
 
-##Array().fill()
+## Array().fill()
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hp5RJqPGmZA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="640" height="340" src="https://www.youtube.com/embed/hp5RJqPGmZA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Rember in the last video that there were a bunch of methods that could be used in conjuction with an array? well let's look at another one. the .fill() method can be used to fill an array with any value. e.g.
 
@@ -48,4 +48,4 @@ for(let i = 0; i < gen0.length; i++){
     }
 }
 ```
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LF1XWRnt7E4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="640" height="340" src="https://www.youtube.com/embed/LF1XWRnt7E4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
