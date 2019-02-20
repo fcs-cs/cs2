@@ -36,4 +36,3 @@ The following video explains things well.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/oigfaZ5ApsM?end=260" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Comprehension Check
