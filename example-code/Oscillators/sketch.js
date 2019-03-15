@@ -24,7 +24,7 @@ function setup() {
         oscArray[i].setType('sine');
         oscArray[i].amp(1);
 
-        sliderArray[i] = createSlider(200, 1000, 500)
+        sliderArray[i] = createSlider(200, 2000, 500)
         sliderArray[i].mouseMoved(update)
 
         fftArray[i] = new p5.FFT()
@@ -77,7 +77,7 @@ function drawSineWave(waveform, amp) {
     strokeWeight(2)
 
     for (let t = 0; t < waveform.length - 1; t ++) {
-        const tScale = width / (waveform.length/2)
+        const tScale = width / (waveform.length)
         line(t * tScale, amp * waveform[t], (t + 1) * tScale, amp * waveform[t + 1]);
     }
 
