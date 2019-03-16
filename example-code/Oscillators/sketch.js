@@ -10,6 +10,7 @@ let fftArray = [];
 let playing = false;
 let startButton;
 let viz;
+let colorPallet = [[255,0,0],[0,255,0],[0,0,255]]
 
 // function setup(){
 //     createCanvas(600,400);
@@ -22,7 +23,8 @@ function setup() {
     for (let i = 0; i < 3; i++) {
         oscArray.push(new p5.Oscillator());
         oscArray[i].setType('sine');
-        oscArray[i].amp(1);
+        oscArray[i].amp(0);
+        oscArray[i].start();
 
         sliderArray[i] = createSlider(200, 2000, 500)
         sliderArray[i].mouseMoved(update)
@@ -42,9 +44,9 @@ function setup() {
 function startStop() {
 
     if (!playing) {
-        for (let osc of oscArray) osc.start();
+        for (let osc of oscArray) osc.amp(1,0.25);
     } else {
-        for (let osc of oscArray) osc.stop();
+        for (let osc of oscArray) osc.amp(0,0.25);
     }
     playing = !playing
 
@@ -61,19 +63,19 @@ function update() {
             translate(0,(3+osc)*(division))
             let waveform = fftArray[osc].waveform();
             waveform.splice(0,waveform.indexOf(1))
-            drawSineWave(waveform,division/3);
+            drawSineWave(waveform,division/3,colorPallet[osc]);
             pop()
         }
         drawCompositeWave(fftArray)
     }
 }
 
-function drawSineWave(waveform, amp) {
+function drawSineWave(waveform, amp, c) {
     stroke(200);
     strokeWeight(1);
     line(0, 0, width, 0);
 
-    stroke(200);
+    stroke(c[0],c[1],c[2],30);
     strokeWeight(2)
 
     for (let t = 0; t < waveform.length - 1; t ++) {
