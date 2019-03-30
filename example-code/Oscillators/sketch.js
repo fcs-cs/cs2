@@ -22,7 +22,7 @@ function setup() {
     createCanvas(800, 400);
     for (let i = 0; i < 3; i++) {
         oscArray.push(new p5.Oscillator());
-        oscArray[i].setType('sine');
+        oscArray[i].setType('sinegit');
         oscArray[i].amp(0);
         oscArray[i].start();
 
