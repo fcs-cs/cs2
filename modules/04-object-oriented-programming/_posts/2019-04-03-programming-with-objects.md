@@ -112,6 +112,11 @@ We can also add a `display()` method to the object and call them up using the sa
 
 While this is all fine and dandy, I think we've actually made our sketch *more* confusing. But don't worry, we'll see how to clean this up in the next unit.
 
+## Video Explanation
+If you'd like a video explanation of the code please watch the following.
+
+<iframe width="640" height="340" src="https://www.youtube.com/embed/bQC0Z33AxKw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## [Comprehension Check](https://docs.google.com/forms/d/e/1FAIpQLSfmhhUhw_d9Q-PyNjgztwPFpb87q-xdhXQSdfqZfIdqzuaksg/viewform)
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfmhhUhw_d9Q-PyNjgztwPFpb87q-xdhXQSdfqZfIdqzuaksg/viewform?embedded=true" width="100%" height="2298" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
