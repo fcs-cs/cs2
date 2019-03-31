@@ -14,10 +14,10 @@ Now that we've seen how to use functions and objects with JSON let's take a look
 
 Let's start with the code from the first lesson in this unit for creating a moving bubble.
 
-<script type="text/p5">
+<script type="text/p5" data-autoplay data-preview-width="250" data-height="400">
 let x,y;
 function setup(){
-    createCanvas(400,400);
+    createCanvas(200,200);
     x = width/2;
     y = height/2;
 }
