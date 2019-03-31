@@ -4,7 +4,7 @@ title: JavaScript Object Notation
 
 # {{page.title}}
 
-JSON is a way of collecting and organizaing information in a systematic way that is easily accecible and readible to humans and computers. This lesson should also be a bit of a review,but it's worth taking the time now to make sure we're all on the same page before moving ahead. In this lesson we will look at:
+JSON is a way of collecting and organizing information in a systematic way that is easily accessible and readable to humans and computers. This lesson should also be a bit of a review,but it's worth taking the time now to make sure we're all on the same page before moving ahead. In this lesson we will look at:
 
 1. What is a JavaScript Object
 1. Reading and Writing JSON
@@ -13,7 +13,7 @@ JSON is a way of collecting and organizaing information in a systematic way that
 
 ## What is a JavaScript Object.
 
- An object which is simply a collection of **values** and, in some cases, **functionality**
+ An object is simply a collection of **data** and, in some cases, **functionality**. We'll see below how JavaScript prefers to structure this data.
 
 ## Reading and Writing JSON
 
@@ -27,7 +27,7 @@ Hopefully, you are familiar with spreadsheets such as google sheets, .csv, or ex
 |1/3/19|-$100.52|$409.23|
 |1/3/19|-18.10|$391.13|
 
-This structure may not be as useful for something like an 0rganizational chart, which has more of a **tree** structure.
+This structure may not be as useful for something like an organizational chart, which has more of a **tree** structure.
 ![](https://wcs.smartdraw.com/organizational-chart/img/org-chart.jpg) However, JSON is an excellent way of keeping track of this type of information, which is certainly a reason to use JSON. JSON is also the default data structure for the internet which is another reason to use it.
 
 ### Reading JSON
@@ -60,7 +60,7 @@ This contains lots of information that can be accessed using the **dot notation*
 
 ### Writing JSON
 
-All objects wrtten with JSON start and end with curly braces `{}` Within the curly braces are key:value pairs, i.e. a value which has a key name associated with it. These two things are separated with a `:`. Each key:value pair is separated with a `,` For example if I just wanted an to collect some basic infromation about a person it could look like this
+All objects written with JSON start and end with curly braces `{}` Within the curly braces are key:value pairs, i.e. a value which has a key name associated with it. These two things are separated with a `:`. Each key:value pair is separated with a `,` For example if I just wanted an to collect some basic information about a person it could look like this
 
 ```JSON
 {
@@ -138,10 +138,10 @@ And we can keep going! What if the value for a particular key was an array of mo
 ```
 ### Creating and Using JavaScript Objects
 
-Now that we know how to read and write JSON we can use that to actually create objects in code. Since JS is so flexible and loosely typed it's easy for us to start to use these data structures. All we have to do is to create a varaible and assign the data to that variable. e.g.
+Now that we know how to read and write JSON we can use that to actually create objects in code. Since JS is so flexible and loosely typed it's easy for us to start to use these data structures. All we have to do is to create a variable and assign the data to that variable. e.g.
 
 ``` javascript
-let conact = {
+let contact = {
     "firstName":"Michael",
     "lastName":"Darfler",
     "age":34,
@@ -169,7 +169,7 @@ let conact = {
 ```
 Now that we have the data stored as a variable we can access the information using **dot notation** For example, If I wanted to get the first name of the contact I could simply say `contact.firstName` and it would return `"Michael"`
 
-I can also get the 3rd entry of the "wieght" property by accessing the index like I would in an array e.g. `contact.weight[2]`
+I can also get the 3rd entry of the "weight" property by accessing the index like I would in an array e.g. `contact.weight[2]`
 
 I can do all sorts of interesting things like print the names of all my siblings:
 

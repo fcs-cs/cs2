@@ -73,7 +73,7 @@ Now, someone with possibly no coding experience could still read this code and g
 
 ## Passing arguments
 
-Lastly, we may want to be able to specify particular parameters for our functions. This makes our functions even more powerful and versitile. Let's imagine that we wanted to change how far the bubble moves each time though the `draw()` loop. we could just change the values in our `moveBubble()` function, but that's a lot of extra typing everytime we want to change it. Instead we can pass an **argument** to the function that can easily be changed:
+Lastly, we may want to be able to specify particular parameters for our functions. This makes our functions even more powerful and versatile. Let's imagine that we wanted to change how far the bubble moves each time though the `draw()` loop. we could just change the values in our `moveBubble()` function, but that's a lot of extra typing every time we want to change it. Instead we can pass an **argument** to the function that can easily be changed:
 ```javascript
 function moveBubble(maxMovement){
     x += random(-maxMovement, maxMovement);
@@ -112,4 +112,4 @@ function displayBubble(){
 
 ## Comprehension Check
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSecw64f4vZ1Ue60LVoOzJ_1w4BGeuS2Wz_XXow_6ssup_sg6Q/viewform?embedded=true" width="640" height="1121" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSecw64f4vZ1Ue60LVoOzJ_1w4BGeuS2Wz_XXow_6ssup_sg6Q/viewform?embedded=true" width="100%" height="1121" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
