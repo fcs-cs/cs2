@@ -14,7 +14,7 @@ Now that we've seen how to use functions and objects with JSON let's take a look
 
 Let's start with the code from the first lesson in this unit for creating a moving bubble.
 
-<iframe src="https://editor.p5js.org/mdarfler/sketches/r1gcfazyr" width = "100%" height = "800" frameboarder="0"></iframe>
+<iframe src="https://editor.p5js.org/mdarfler/sketches/r1gcfazyr" width = "100%" height = "800" frameborder="0"></iframe>
 
 ## Creating a bubble object to store data using JSON
 
@@ -32,7 +32,7 @@ function setup(){
 ```
 However, if we run this, we're going to get errors because now, wherever we had the variable `x` and `y` we need to replace it with `bubble.x` and `bubble.y` because that data is now stored within the  object called `bubble`. After doing so we should end up with something like the following sketch.
 
-<iframe src="https://editor.p5js.org/mdarfler/sketches/vVETgK0HK" width = "100%" height = "800" frameboarder="0"></iframe>
+<iframe src="https://editor.p5js.org/mdarfler/sketches/vVETgK0HK" width = "100%" height = "800" frameborder="0"></iframe>
 
 So as you can see, the functionality hasn't changed, just the structure of the sketch.
 
@@ -56,7 +56,7 @@ function setup(){
             console.log('hello')
         }
     }
-    bubble.hello()
+    bubble.hello();
 }
 ```
 notice that when we want to call the method we have to include `()` after the method name.
@@ -81,7 +81,7 @@ function setup(){
             y += random(-5,5);
         }
     }
-    bubble.hello()
+    bubble.hello();
 }
 ```
 But this won't work. `x` and `y` are no longer variables that can be accessed globally. Instead they are associated with the bubble object. So how about `bubble.x += random(-5,5)`? No go again. `bubble.x` doesn't exist yet because we're still creating the bubble object when we are defining the method `move()`. To get around this, JS has created the key word `this` as in `this` object's `x` and `this` object's `y`. 
@@ -102,14 +102,16 @@ function setup(){
             this.y += random(-5,5);
         }
     }
-    bubble.hello()
+    bubble.hello();
 }
 ```
 
 We can also add a `display()` method to the object and call them up using the same dot notation as before and we're left with something that looks like this.
 
-<iframe src="hhttps://editor.p5js.org/mdarfler/sketches/6Sq3gmvm8" width = "100%" height = "800" frameboarder="0"></iframe>
+<iframe src="https://editor.p5js.org/mdarfler/sketches/6Sq3gmvm8" width = "100%" height = "800" frameborder="0"></iframe>
 
 While this is all fine and dandy, I think we've actually made our sketch *more* confusing. But don't worry, we'll see how to clean this up in the next unit.
 
-## Comprehension Check
+## [Comprehension Check](https://docs.google.com/forms/d/e/1FAIpQLSfmhhUhw_d9Q-PyNjgztwPFpb87q-xdhXQSdfqZfIdqzuaksg/viewform)
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfmhhUhw_d9Q-PyNjgztwPFpb87q-xdhXQSdfqZfIdqzuaksg/viewform?embedded=true" width="100%" height="2298" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
