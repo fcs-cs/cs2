@@ -110,6 +110,6 @@ function displayBubble(){
 }
 ```
 
-## Comprehension Check
+## [Comprehension Check](https://docs.google.com/forms/d/e/1FAIpQLSecw64f4vZ1Ue60LVoOzJ_1w4BGeuS2Wz_XXow_6ssup_sg6Q/viewform)
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSecw64f4vZ1Ue60LVoOzJ_1w4BGeuS2Wz_XXow_6ssup_sg6Q/viewform?embedded=true" width="100%" height="1121" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
