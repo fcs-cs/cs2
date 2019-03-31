@@ -14,32 +14,5 @@ Now that we've seen how to use functions and objects with JSON let's take a look
 
 Let's start with the code from the first lesson in this unit for creating a moving bubble.
 
-<script type="text/p5" data-autoplay data-preview-width="250" data-height="400">
-let x,y;
-function setup(){
-    createCanvas(200,200);
-    x = width/2;
-    y = height/2;
-}
+<iframe src="https://editor.p5js.org/mdarfler/sketches/r1gcfazyr" width = "100%" height = "800" frameboarder="0"></iframe>
 
-function draw(){
-    background(0);
-    moveBubble(5);
-    displayBubble();
-    
-}
-
-function moveBubble(maxMovement){
-    x += random(-maxMovement, maxMovement);
-    y += random(-maxMovement, maxMovement);
-}
-
-function displayBubble(){
-    stroke(255);
-    strokeWeight(4);
-    noFill();
-    ellipse(x,y,50);
-}
-</script>
-
-<iframe src="https://editor.p5js.org/mdarfler/sketches/r1gcfazyr" width = "100%" height = "400" ></iframe>
