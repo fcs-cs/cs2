@@ -12,3 +12,7 @@ One ball is good, two is better, 1000 is great. But how are we going to make 100
 ## Comprehension Check
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeJOaUPatVfXxNxWf-RtkKj88oFenyfcUgspkq5IfAAVxHX0Q/viewform?embedded=true" width="100%" height="1670" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+
+## Assignment
+
+Update your code from before to create an array of 100 ball objects that spawn at a random location with a random radius and have them all bounce around the screen. Submit a pull request back to fcs-cs/cs2-student-files MASTER. (Note: if the pull request hasn't been accepted yet, just make a new commit to the pull request with the commit message "Object Array")
