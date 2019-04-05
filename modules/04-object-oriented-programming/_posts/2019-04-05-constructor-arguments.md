@@ -10,4 +10,4 @@ So bubbles and circles are great, but, as we know, no two bubbles are alike. But
 
 ## Assignment
 
-Using your code from the previous lesson, refactor the code so that you can specify the ball's initial x and y position, radius, speed, and color. Submit a pull request back to fcs-cs/cs2-student-files MASTER
+Using your code from the previous lesson, refactor the code so that you can specify the ball's initial x and y position, radius, speed, and color. Submit a pull request back to fcs-cs/cs2-student-files MASTER Note: if the pull request hasn't been accepted yet, just make a new commit to the pull request with the commit message "Constructor Arguments")
