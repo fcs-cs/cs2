@@ -151,3 +151,6 @@ And there you go. Now there is a **a lot** of ways to improve on this but the ba
 1. What if the seed is a line, or a circle, or some irregular curve?
 
 ![](https://upload.wikimedia.org/wikipedia/commons/5/55/Lichtenberg_figure_in_block_of_Plexiglas.jpg)
+
+## Video Explanation from Shiffman
+<iframe width="640" height="340" src="https://www.youtube.com/embed/Cl_Gjj80gPE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
