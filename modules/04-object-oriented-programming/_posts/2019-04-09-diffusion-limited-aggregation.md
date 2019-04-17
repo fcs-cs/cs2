@@ -156,3 +156,7 @@ And there you go. Now there is a **a lot** of ways to improve on this but the ba
 BE WARNED! This video uses vectors which we haven't covered yet.
 
 <iframe width="640" height="340" src="https://www.youtube.com/embed/Cl_Gjj80gPE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+## Video Explanation from Mr. Darfler
+<iframe width="640" height="340" src="https://www.youtube.com/embed/U12QdvaglXM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
