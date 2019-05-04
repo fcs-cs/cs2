@@ -1,6 +1,6 @@
 title: 'CS2: Simulating the Natural World - FCS Spring 2019'
 description: 'CS2: Simulating the Natural World - FCS Spring 2019'
-modules: [00-welcome,01-Git,02-cellular-automata,03-fourier-analysis,04-object-oriented-programming]
+modules: [00-welcome,01-Git,02-cellular-automata,03-fourier-analysis,04-object-oriented-programming,05-vectors]
 signups:
 yt_width: "600"
 yt_height: "400"
