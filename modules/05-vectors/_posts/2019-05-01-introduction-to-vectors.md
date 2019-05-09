@@ -93,6 +93,8 @@ Well isn't that handy!
 
 ### putting it together.
 
-Let's make a simple sketch that will move a ball with a uniform velocity across the screen from left to right. 
+Let's make a simple sketch that will move a ball with a uniform velocity across the screen from left to right. We'll need to start by initializing a position vector and then in the draw loop we can update the position by adding a constant velocity vector to that position and then redrawing the ellipse.
 
 <iframe width="100%" height="600" frameborder="0" src="https://editor.p5js.org/mdarfler/sketches/dfERahzkZ"></iframe>
+
+## Comprehension Check
